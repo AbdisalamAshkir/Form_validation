@@ -86,6 +86,8 @@ form.addEventListener("submit", (event)=>{
     checkPasswordLength(confirmPassword,6,10);
 
     checkConfirmPassword(password,confirmPassword);
+
+    document.getElementById("success-message").style.display = 'block';
    
    
 });
